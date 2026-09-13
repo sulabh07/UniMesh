@@ -1,0 +1,4297 @@
+[
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which keyword is used to define a function in Python?",
+    "code": "",
+    "options": [
+      "func",
+      "def",
+      "function",
+      "define"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python functions are declared with the def keyword.",
+    "tags": [
+      "syntax",
+      "functions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "What is the type of the value 3.14 in Python?",
+    "code": "",
+    "options": [
+      "int",
+      "str",
+      "float",
+      "bool"
+    ],
+    "correctIndex": 2,
+    "explanation": "A decimal numeric literal such as 3.14 is a float.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which function is commonly used to read keyboard input in Python?",
+    "code": "",
+    "options": [
+      "scan()",
+      "read()",
+      "input()",
+      "get()"
+    ],
+    "correctIndex": 2,
+    "explanation": "input() reads a line from standard input.",
+    "tags": [
+      "io"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which symbol starts a single-line comment in Python?",
+    "code": "",
+    "options": [
+      "//",
+      "#",
+      "/*",
+      "--"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python uses # for single-line comments.",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "What does print() do?",
+    "code": "",
+    "options": [
+      "Reads input",
+      "Displays output",
+      "Creates a variable",
+      "Ends the program"
+    ],
+    "correctIndex": 1,
+    "explanation": "print() writes values to standard output.",
+    "tags": [
+      "io"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which of these is a valid Python variable name?",
+    "code": "",
+    "options": [
+      "2name",
+      "first-name",
+      "first_name",
+      "class"
+    ],
+    "correctIndex": 2,
+    "explanation": "first_name is a valid identifier; identifiers cannot begin with digits or contain hyphens, and class is reserved.",
+    "tags": [
+      "variables"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "What is the result of 7 // 2 in Python?",
+    "code": "",
+    "options": [
+      "3",
+      "3.5",
+      "4",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "// performs floor division, so 7 // 2 is 3.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which value represents Boolean false in Python?",
+    "code": "",
+    "options": [
+      "false",
+      "FALSE",
+      "False",
+      "0.0f"
+    ],
+    "correctIndex": 2,
+    "explanation": "Python's Boolean literals are True and False.",
+    "tags": [
+      "types",
+      "boolean"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "What is the result of len('Python')?",
+    "code": "",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "Error"
+    ],
+    "correctIndex": 1,
+    "explanation": "The string 'Python' contains six characters.",
+    "tags": [
+      "strings"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 1,
+    "text": "Which operator is used for exponentiation in Python?",
+    "code": "",
+    "options": [
+      "^",
+      "**",
+      "pow^",
+      "^^"
+    ],
+    "correctIndex": 1,
+    "explanation": "Python uses ** for exponentiation.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What is printed?",
+    "code": "for i in range(3):\n    print(i, end=' ')",
+    "options": [
+      "0 1 2",
+      "1 2 3",
+      "0 1 2 3",
+      "1 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "range(3) produces 0, 1, and 2.",
+    "tags": [
+      "loops",
+      "range"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "Which statement immediately exits a loop?",
+    "code": "",
+    "options": [
+      "skip",
+      "continue",
+      "break",
+      "return-loop"
+    ],
+    "correctIndex": 2,
+    "explanation": "break terminates the nearest loop.",
+    "tags": [
+      "loops",
+      "control-flow"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What does continue do inside a loop?",
+    "code": "",
+    "options": [
+      "Ends the program",
+      "Skips to the next iteration",
+      "Restarts Python",
+      "Exits all loops"
+    ],
+    "correctIndex": 1,
+    "explanation": "continue skips the rest of the current iteration.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "Which condition checks whether x is equal to 10?",
+    "code": "",
+    "options": [
+      "x = 10",
+      "x == 10",
+      "x := 10",
+      "x === 10"
+    ],
+    "correctIndex": 1,
+    "explanation": "== is Python's equality comparison operator.",
+    "tags": [
+      "operators",
+      "conditions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What is list(range(2, 7, 2))?",
+    "code": "",
+    "options": [
+      "[2, 4, 6]",
+      "[2, 4, 6, 8]",
+      "[2, 3, 4, 5, 6]",
+      "[7, 5, 3]"
+    ],
+    "correctIndex": 0,
+    "explanation": "range(2,7,2) starts at 2, stops before 7, and steps by 2.",
+    "tags": [
+      "range"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "Which operator means logical AND in Python?",
+    "code": "",
+    "options": [
+      "&&",
+      "&",
+      "and",
+      "AND()"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Boolean operator is the keyword and.",
+    "tags": [
+      "boolean",
+      "operators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What is the result of 5 != 4?",
+    "code": "",
+    "options": [
+      "True",
+      "False",
+      "5",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "!= tests inequality; 5 and 4 are different.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "Which loop is usually best when the number of iterations is known?",
+    "code": "",
+    "options": [
+      "for",
+      "while only",
+      "do-while",
+      "repeat-until"
+    ],
+    "correctIndex": 0,
+    "explanation": "A for loop is typically used to iterate over a known sequence or range.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What is printed?",
+    "code": "x = 8\nif x < 5:\n    print('A')\nelse:\n    print('B')",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "Nothing"
+    ],
+    "correctIndex": 1,
+    "explanation": "8 is not less than 5, so the else branch prints B.",
+    "tags": [
+      "conditions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 2,
+    "text": "What does range(5) stop before?",
+    "code": "",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "It never stops"
+    ],
+    "correctIndex": 1,
+    "explanation": "The stop value is exclusive, so range(5) stops before 5.",
+    "tags": [
+      "range"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "Which data structure stores key-value pairs?",
+    "code": "",
+    "options": [
+      "list",
+      "tuple",
+      "dict",
+      "set"
+    ],
+    "correctIndex": 2,
+    "explanation": "A dict maps keys to values.",
+    "tags": [
+      "dict"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "Which collection automatically removes duplicate values?",
+    "code": "",
+    "options": [
+      "list",
+      "tuple",
+      "set",
+      "string"
+    ],
+    "correctIndex": 2,
+    "explanation": "A set contains unique elements.",
+    "tags": [
+      "set"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What is [x*x for x in range(3)]?",
+    "code": "",
+    "options": [
+      "[0,1,4]",
+      "[1,4,9]",
+      "[0,1,2]",
+      "[0,2,4]"
+    ],
+    "correctIndex": 0,
+    "explanation": "The comprehension squares 0, 1, and 2.",
+    "tags": [
+      "comprehensions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What does a Python function return if no return statement is executed?",
+    "code": "",
+    "options": [
+      "0",
+      "False",
+      "None",
+      "Empty string"
+    ],
+    "correctIndex": 2,
+    "explanation": "Functions return None implicitly.",
+    "tags": [
+      "functions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "Which syntax creates a one-element tuple?",
+    "code": "",
+    "options": [
+      "(5)",
+      "[5]",
+      "(5,)",
+      "{5}"
+    ],
+    "correctIndex": 2,
+    "explanation": "The trailing comma makes (5,) a tuple.",
+    "tags": [
+      "tuple"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What is {'a':1}.get('b', 0)?",
+    "code": "",
+    "options": [
+      "1",
+      "0",
+      "None",
+      "KeyError"
+    ],
+    "correctIndex": 1,
+    "explanation": "dict.get returns the provided default when the key is missing.",
+    "tags": [
+      "dict"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "Which statement adds 4 to the end of list a?",
+    "code": "",
+    "options": [
+      "a.add(4)",
+      "a.push(4)",
+      "a.append(4)",
+      "append(a,4)"
+    ],
+    "correctIndex": 2,
+    "explanation": "list.append adds one item to the end.",
+    "tags": [
+      "list"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What is the main difference between a list and a tuple?",
+    "code": "",
+    "options": [
+      "Tuples are immutable",
+      "Lists cannot store strings",
+      "Tuples are always sorted",
+      "Lists are key-value maps"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tuples are immutable while lists are mutable.",
+    "tags": [
+      "list",
+      "tuple"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What does *args collect in a function parameter list?",
+    "code": "",
+    "options": [
+      "Keyword arguments into a dict",
+      "Extra positional arguments into a tuple",
+      "Only integers",
+      "Return values"
+    ],
+    "correctIndex": 1,
+    "explanation": "*args gathers extra positional arguments into a tuple.",
+    "tags": [
+      "functions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 3,
+    "text": "What does **kwargs collect?",
+    "code": "",
+    "options": [
+      "Extra keyword arguments into a dict",
+      "Positional arguments into a list",
+      "Exceptions",
+      "Modules"
+    ],
+    "correctIndex": 0,
+    "explanation": "**kwargs gathers keyword arguments into a dictionary.",
+    "tags": [
+      "functions",
+      "dict"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What is the purpose of try/except?",
+    "code": "",
+    "options": [
+      "Loop control",
+      "Exception handling",
+      "Import optimization",
+      "Type casting"
+    ],
+    "correctIndex": 1,
+    "explanation": "try/except catches and handles exceptions.",
+    "tags": [
+      "exceptions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "Which method is called when an object is created from a class?",
+    "code": "",
+    "options": [
+      "__start__",
+      "__init__",
+      "__newobj__",
+      "constructor()"
+    ],
+    "correctIndex": 1,
+    "explanation": "__init__ initializes a newly created instance.",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What does inheritance allow?",
+    "code": "",
+    "options": [
+      "A class to reuse/extend another class",
+      "A variable to change type",
+      "A loop to restart",
+      "A module to import itself"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inheritance lets subclasses reuse and extend base-class behavior.",
+    "tags": [
+      "oop",
+      "inheritance"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "Which built-in function creates an iterator from an iterable?",
+    "code": "",
+    "options": [
+      "iterate()",
+      "next()",
+      "iter()",
+      "yield()"
+    ],
+    "correctIndex": 2,
+    "explanation": "iter() returns an iterator object.",
+    "tags": [
+      "iterators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What does next(it) do?",
+    "code": "",
+    "options": [
+      "Creates a list",
+      "Gets the next item from an iterator",
+      "Resets an iterator",
+      "Sorts items"
+    ],
+    "correctIndex": 1,
+    "explanation": "next() requests the next value from an iterator.",
+    "tags": [
+      "iterators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What is a decorator commonly used for?",
+    "code": "",
+    "options": [
+      "Changing function/class behavior without editing its core body",
+      "Declaring integers",
+      "Starting threads only",
+      "Deleting modules"
+    ],
+    "correctIndex": 0,
+    "explanation": "Decorators wrap or modify functions/classes declaratively.",
+    "tags": [
+      "decorators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "Which block executes whether or not an exception occurs?",
+    "code": "",
+    "options": [
+      "catch",
+      "else only",
+      "finally",
+      "raise"
+    ],
+    "correctIndex": 2,
+    "explanation": "finally executes after try/except regardless of whether an exception was raised.",
+    "tags": [
+      "exceptions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What does raise do?",
+    "code": "",
+    "options": [
+      "Imports a module",
+      "Explicitly triggers an exception",
+      "Increases a number",
+      "Creates a generator"
+    ],
+    "correctIndex": 1,
+    "explanation": "raise is used to signal an exception.",
+    "tags": [
+      "exceptions"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "Which special method defines a user-friendly string representation for str(obj)?",
+    "code": "",
+    "options": [
+      "__repr_only__",
+      "__str__",
+      "__print__",
+      "__text__"
+    ],
+    "correctIndex": 1,
+    "explanation": "__str__ is used by str() and print() for readable representation.",
+    "tags": [
+      "oop",
+      "dunder"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 4,
+    "text": "What does @staticmethod mean?",
+    "code": "",
+    "options": [
+      "Method receives self automatically",
+      "Method receives cls automatically",
+      "Method receives neither self nor cls automatically",
+      "Method cannot return"
+    ],
+    "correctIndex": 2,
+    "explanation": "A static method does not receive an implicit instance or class argument.",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "What does yield do in a Python function?",
+    "code": "",
+    "options": [
+      "Terminates Python",
+      "Makes the function a generator that can resume",
+      "Imports asyncio",
+      "Locks the GIL"
+    ],
+    "correctIndex": 1,
+    "explanation": "yield produces a value and suspends function state, creating generator behavior.",
+    "tags": [
+      "generators"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "Which keyword is used to wait for an awaitable inside async code?",
+    "code": "",
+    "options": [
+      "wait",
+      "yield",
+      "await",
+      "pause"
+    ],
+    "correctIndex": 2,
+    "explanation": "await suspends the coroutine until the awaitable completes.",
+    "tags": [
+      "async"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "What is the GIL in CPython primarily associated with?",
+    "code": "",
+    "options": [
+      "Only one thread executes Python bytecode at a time in a process",
+      "Preventing all concurrency",
+      "Encrypting memory",
+      "Garbage collection only"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Global Interpreter Lock allows one thread at a time to execute Python bytecode in a CPython process.",
+    "tags": [
+      "gil",
+      "concurrency"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "Which module is the standard foundation for async/await event-loop programming?",
+    "code": "",
+    "options": [
+      "thread",
+      "asyncio",
+      "parallel",
+      "awaitlib"
+    ],
+    "correctIndex": 1,
+    "explanation": "asyncio provides event loops, tasks, and async I/O primitives.",
+    "tags": [
+      "async"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "What is a metaclass?",
+    "code": "",
+    "options": [
+      "A class whose instances are classes",
+      "A faster list",
+      "A thread pool",
+      "A database schema"
+    ],
+    "correctIndex": 0,
+    "explanation": "Metaclasses define how classes themselves are created and behave.",
+    "tags": [
+      "metaclasses"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "Which special method is central to the context manager protocol for entering a with block?",
+    "code": "",
+    "options": [
+      "__open__",
+      "__enter__",
+      "__with__",
+      "__begin__"
+    ],
+    "correctIndex": 1,
+    "explanation": "__enter__ is called when entering a with statement.",
+    "tags": [
+      "context-manager"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "Which tool is most appropriate for CPU-bound parallelism that bypasses the CPython GIL by using separate processes?",
+    "code": "",
+    "options": [
+      "multiprocessing",
+      "asyncio.sleep",
+      "itertools",
+      "logging"
+    ],
+    "correctIndex": 0,
+    "explanation": "multiprocessing uses separate processes and can run Python bytecode on multiple CPU cores.",
+    "tags": [
+      "concurrency",
+      "performance"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "What is memoization?",
+    "code": "",
+    "options": [
+      "Deleting cached values",
+      "Caching function results for repeated inputs",
+      "Converting code to bytecode manually",
+      "A threading lock"
+    ],
+    "correctIndex": 1,
+    "explanation": "Memoization stores previous results to avoid recomputation.",
+    "tags": [
+      "performance"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "What is the purpose of __slots__ in a class?",
+    "code": "",
+    "options": [
+      "It can restrict instance attributes and reduce per-instance memory",
+      "It makes every method async",
+      "It disables inheritance",
+      "It enables SQL"
+    ],
+    "correctIndex": 0,
+    "explanation": "__slots__ can avoid a per-instance __dict__ and constrain attributes.",
+    "tags": [
+      "performance",
+      "oop"
+    ]
+  },
+  {
+    "language": "python",
+    "level": 5,
+    "text": "Which statement about generators is true?",
+    "code": "",
+    "options": [
+      "They materialize every value immediately",
+      "They produce values lazily",
+      "They cannot be iterated",
+      "They require threads"
+    ],
+    "correctIndex": 1,
+    "explanation": "Generators yield values on demand, making them lazy.",
+    "tags": [
+      "generators",
+      "performance"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which header is commonly used for std::cout?",
+    "code": "",
+    "options": [
+      "<stdio.h>",
+      "<iostream>",
+      "<string.h>",
+      "<math>"
+    ],
+    "correctIndex": 1,
+    "explanation": "std::cout is declared in <iostream>.",
+    "tags": [
+      "headers",
+      "io"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which statement prints text using the standard C++ stream?",
+    "code": "",
+    "options": [
+      "printf only",
+      "std::cout << \"Hi\";",
+      "System.out.println(\"Hi\");",
+      "print(\"Hi\")"
+    ],
+    "correctIndex": 1,
+    "explanation": "std::cout with << writes to standard output.",
+    "tags": [
+      "io"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which type typically stores whole numbers?",
+    "code": "",
+    "options": [
+      "int",
+      "float only",
+      "char* only",
+      "bool[]"
+    ],
+    "correctIndex": 0,
+    "explanation": "int is a standard integer type.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which symbol ends most C++ statements?",
+    "code": "",
+    "options": [
+      ":",
+      ";",
+      ".",
+      ","
+    ],
+    "correctIndex": 1,
+    "explanation": "Most C++ statements end with a semicolon.",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "What is the standard entry function of a C++ program?",
+    "code": "",
+    "options": [
+      "start()",
+      "main()",
+      "run()",
+      "init()"
+    ],
+    "correctIndex": 1,
+    "explanation": "Program execution begins in main().",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which operator gets the address of a variable?",
+    "code": "",
+    "options": [
+      "*",
+      "&",
+      "->",
+      "::"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unary & returns an object's address.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which keyword creates a compile-time constant variable?",
+    "code": "",
+    "options": [
+      "const",
+      "fixed",
+      "final",
+      "static-only"
+    ],
+    "correctIndex": 0,
+    "explanation": "const prevents modification through that name.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which namespace contains cout, cin, string, and vector?",
+    "code": "",
+    "options": [
+      "system",
+      "cpp",
+      "std",
+      "global"
+    ],
+    "correctIndex": 2,
+    "explanation": "The C++ standard library uses namespace std.",
+    "tags": [
+      "namespace"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "Which operator performs remainder on integers?",
+    "code": "",
+    "options": [
+      "/",
+      "%",
+      "//",
+      "mod()"
+    ],
+    "correctIndex": 1,
+    "explanation": "% computes the remainder.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 1,
+    "text": "What does std::cin >> x do?",
+    "code": "",
+    "options": [
+      "Prints x",
+      "Reads input into x",
+      "Deletes x",
+      "Casts x"
+    ],
+    "correctIndex": 1,
+    "explanation": "The extraction operator reads formatted input from std::cin.",
+    "tags": [
+      "io"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which loop is ideal for iterating a known number of times?",
+    "code": "",
+    "options": [
+      "for",
+      "switch",
+      "try",
+      "namespace"
+    ],
+    "correctIndex": 0,
+    "explanation": "for loops are commonly used for counted iteration.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "What is passed when a parameter is declared int& x?",
+    "code": "",
+    "options": [
+      "A copy",
+      "A reference to the original int",
+      "A pointer value only",
+      "A string"
+    ],
+    "correctIndex": 1,
+    "explanation": "int& is an lvalue reference, allowing access to the original object.",
+    "tags": [
+      "references"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which container represents a fixed-size built-in array?",
+    "code": "",
+    "options": [
+      "int a[5]",
+      "vector<int> only",
+      "map<int,int>",
+      "set<int>"
+    ],
+    "correctIndex": 0,
+    "explanation": "int a[5] declares a built-in array of five ints.",
+    "tags": [
+      "arrays"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "What does break do in a loop?",
+    "code": "",
+    "options": [
+      "Skips one iteration",
+      "Exits the nearest loop",
+      "Returns from every function",
+      "Restarts loop"
+    ],
+    "correctIndex": 1,
+    "explanation": "break terminates the nearest loop/switch.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which keyword skips to the next loop iteration?",
+    "code": "",
+    "options": [
+      "next",
+      "continue",
+      "skip",
+      "pass"
+    ],
+    "correctIndex": 1,
+    "explanation": "continue starts the next iteration.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which syntax declares a function returning int?",
+    "code": "",
+    "options": [
+      "int f()",
+      "f(): int",
+      "function int f",
+      "def f()->int"
+    ],
+    "correctIndex": 0,
+    "explanation": "C++ puts the return type before the function name.",
+    "tags": [
+      "functions"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "What is the first valid index of an array?",
+    "code": "",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "Depends on compiler"
+    ],
+    "correctIndex": 1,
+    "explanation": "C++ arrays are zero-indexed.",
+    "tags": [
+      "arrays"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which operator is logical AND?",
+    "code": "",
+    "options": [
+      "and only invalid",
+      "&&",
+      "& only",
+      "||"
+    ],
+    "correctIndex": 1,
+    "explanation": "&& is the standard logical AND operator (and is an alternative token, but && is canonical).",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "What does sizeof(int) return?",
+    "code": "",
+    "options": [
+      "Value of an int",
+      "Size in bytes of int",
+      "Number of digits",
+      "Pointer address"
+    ],
+    "correctIndex": 1,
+    "explanation": "sizeof yields the size of a type/object in bytes.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 2,
+    "text": "Which statement creates a reference r to x?",
+    "code": "",
+    "options": [
+      "int r = &x;",
+      "int& r = x;",
+      "int* r = x;",
+      "ref int r = x;"
+    ],
+    "correctIndex": 1,
+    "explanation": "int& r = x binds r as a reference to x.",
+    "tags": [
+      "references"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which operator dereferences a pointer p?",
+    "code": "",
+    "options": [
+      "&p",
+      "*p",
+      "p&",
+      "->p"
+    ],
+    "correctIndex": 1,
+    "explanation": "Unary * accesses the object pointed to.",
+    "tags": [
+      "pointers"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which keyword dynamically allocates an object?",
+    "code": "",
+    "options": [
+      "alloc",
+      "new",
+      "malloc-only",
+      "create"
+    ],
+    "correctIndex": 1,
+    "explanation": "new allocates and constructs objects dynamically.",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which keyword releases memory allocated with new for a single object?",
+    "code": "",
+    "options": [
+      "free",
+      "delete",
+      "remove",
+      "clear"
+    ],
+    "correctIndex": 1,
+    "explanation": "delete releases a single object allocated with new.",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which STL container provides dynamic contiguous storage?",
+    "code": "",
+    "options": [
+      "std::vector",
+      "std::map",
+      "std::set",
+      "std::queue only"
+    ],
+    "correctIndex": 0,
+    "explanation": "std::vector is a resizable contiguous array.",
+    "tags": [
+      "stl",
+      "vector"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "What does a class primarily define?",
+    "code": "",
+    "options": [
+      "Only variables",
+      "A user-defined type with data and behavior",
+      "A preprocessor macro",
+      "A namespace alias"
+    ],
+    "correctIndex": 1,
+    "explanation": "A class groups state and member functions into a type.",
+    "tags": [
+      "classes"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which access specifier hides members from outside users by default in class?",
+    "code": "",
+    "options": [
+      "public",
+      "private",
+      "global",
+      "protected-only"
+    ],
+    "correctIndex": 1,
+    "explanation": "Members of class are private by default.",
+    "tags": [
+      "classes"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "What is nullptr?",
+    "code": "",
+    "options": [
+      "Integer 0 only",
+      "A null pointer literal",
+      "A deleted pointer",
+      "An empty vector"
+    ],
+    "correctIndex": 1,
+    "explanation": "nullptr is the type-safe null pointer literal introduced in C++11.",
+    "tags": [
+      "pointers"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Which member access operator is used through a pointer to an object?",
+    "code": "",
+    "options": [
+      ".",
+      "->",
+      "::",
+      "*."
+    ],
+    "correctIndex": 1,
+    "explanation": "p->member accesses a member via an object pointer.",
+    "tags": [
+      "pointers",
+      "classes"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "What does std::vector<int> v(3) create?",
+    "code": "",
+    "options": [
+      "Empty vector capacity 3",
+      "Vector of 3 ints value-initialized",
+      "Array pointer",
+      "Map with 3 keys"
+    ],
+    "correctIndex": 1,
+    "explanation": "The size constructor creates three int elements, value-initialized to 0.",
+    "tags": [
+      "vector"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 3,
+    "text": "Why is delete[] used?",
+    "code": "",
+    "options": [
+      "To delete a vector",
+      "To release an array allocated with new[]",
+      "To clear stack memory",
+      "To remove a header"
+    ],
+    "correctIndex": 1,
+    "explanation": "Memory allocated with new[] must be paired with delete[].",
+    "tags": [
+      "memory"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "What is RAII?",
+    "code": "",
+    "options": [
+      "Resource lifetime tied to object lifetime",
+      "Runtime array indexing interface",
+      "Random access iterator",
+      "Reference alias integration"
+    ],
+    "correctIndex": 0,
+    "explanation": "RAII acquires resources in object construction and releases them in destruction.",
+    "tags": [
+      "raii"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "Which smart pointer expresses exclusive ownership?",
+    "code": "",
+    "options": [
+      "std::shared_ptr",
+      "std::unique_ptr",
+      "std::weak_ptr",
+      "raw_ptr"
+    ],
+    "correctIndex": 1,
+    "explanation": "unique_ptr provides exclusive ownership.",
+    "tags": [
+      "smart-pointers"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "Which container stores unique ordered keys by default?",
+    "code": "",
+    "options": [
+      "std::vector",
+      "std::set",
+      "std::deque",
+      "std::list"
+    ],
+    "correctIndex": 1,
+    "explanation": "std::set stores unique keys ordered by its comparator.",
+    "tags": [
+      "stl"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "Which container maps keys to values and orders by key?",
+    "code": "",
+    "options": [
+      "std::map",
+      "std::vector",
+      "std::stack",
+      "std::array"
+    ],
+    "correctIndex": 0,
+    "explanation": "std::map is an ordered associative key-value container.",
+    "tags": [
+      "stl"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "What is a virtual function used for?",
+    "code": "",
+    "options": [
+      "Compile-time macros",
+      "Runtime polymorphic dispatch",
+      "Memory allocation only",
+      "Namespaces"
+    ],
+    "correctIndex": 1,
+    "explanation": "virtual enables dynamic dispatch through base references/pointers.",
+    "tags": [
+      "oop",
+      "polymorphism"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "Why should a polymorphic base class usually have a virtual destructor?",
+    "code": "",
+    "options": [
+      "To make constructors virtual",
+      "To ensure derived destructors run when deleting via base pointer",
+      "To speed copying",
+      "To disable inheritance"
+    ],
+    "correctIndex": 1,
+    "explanation": "A virtual destructor allows correct derived destruction through a base pointer.",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "What does std::move primarily do?",
+    "code": "",
+    "options": [
+      "Physically move bytes immediately",
+      "Cast to an rvalue/xvalue to enable move operations",
+      "Delete the source",
+      "Copy data"
+    ],
+    "correctIndex": 1,
+    "explanation": "std::move is a cast that permits move overloads to be selected.",
+    "tags": [
+      "move-semantics"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "What is std::weak_ptr useful for?",
+    "code": "",
+    "options": [
+      "Exclusive ownership",
+      "Non-owning observation of shared_ptr-managed objects",
+      "Raw allocation",
+      "Array sorting"
+    ],
+    "correctIndex": 1,
+    "explanation": "weak_ptr observes shared ownership without increasing the strong reference count.",
+    "tags": [
+      "smart-pointers"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "Which algorithm sorts a random-access range?",
+    "code": "",
+    "options": [
+      "std::order",
+      "std::sort",
+      "std::arrange",
+      "std::rank"
+    ],
+    "correctIndex": 1,
+    "explanation": "std::sort sorts a range given random-access iterators.",
+    "tags": [
+      "algorithms",
+      "stl"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 4,
+    "text": "What does a pure virtual function typically contain in its declaration?",
+    "code": "",
+    "options": [
+      "= 0",
+      "= null",
+      "virtual only with no semicolon",
+      "abstract"
+    ],
+    "correctIndex": 0,
+    "explanation": "A pure virtual function is declared with = 0.",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What is the Rule of Five concerned with?",
+    "code": "",
+    "options": [
+      "Five loop types",
+      "Copy/move construction, copy/move assignment, and destruction",
+      "Five STL containers",
+      "Five template parameters"
+    ],
+    "correctIndex": 1,
+    "explanation": "Resource-owning classes may need all five special member functions.",
+    "tags": [
+      "rule-of-five"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What is perfect forwarding commonly implemented with?",
+    "code": "",
+    "options": [
+      "std::forward and forwarding references",
+      "std::sort",
+      "std::weak_ptr",
+      "goto"
+    ],
+    "correctIndex": 0,
+    "explanation": "std::forward preserves value category in forwarding contexts.",
+    "tags": [
+      "templates",
+      "move-semantics"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What does template<typename T> introduce?",
+    "code": "",
+    "options": [
+      "A runtime variable",
+      "A type template parameter",
+      "A namespace",
+      "A thread"
+    ],
+    "correctIndex": 1,
+    "explanation": "It declares T as a template type parameter.",
+    "tags": [
+      "templates"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "Which standard type represents a thread of execution?",
+    "code": "",
+    "options": [
+      "std::thread",
+      "std::process",
+      "std::fiber always",
+      "std::async_thread"
+    ],
+    "correctIndex": 0,
+    "explanation": "std::thread represents a thread.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What is a data race?",
+    "code": "",
+    "options": [
+      "Two threads access the same memory concurrently with at least one unsynchronized write",
+      "Any two threads running",
+      "A slow mutex",
+      "A race in sorting"
+    ],
+    "correctIndex": 0,
+    "explanation": "Unsynchronized conflicting accesses cause a data race and undefined behavior.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "Which primitive provides mutual exclusion?",
+    "code": "",
+    "options": [
+      "std::mutex",
+      "std::vector",
+      "std::future only",
+      "std::tuple"
+    ],
+    "correctIndex": 0,
+    "explanation": "std::mutex protects critical sections through locking.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What does std::lock_guard do?",
+    "code": "",
+    "options": [
+      "Manually allocates a mutex",
+      "Uses RAII to lock/unlock a mutex",
+      "Creates a thread pool",
+      "Deletes locks"
+    ],
+    "correctIndex": 1,
+    "explanation": "lock_guard locks on construction and unlocks on destruction.",
+    "tags": [
+      "concurrency",
+      "raii"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What is an rvalue reference declared with?",
+    "code": "",
+    "options": [
+      "T&",
+      "T&&",
+      "T*",
+      "const T only"
+    ],
+    "correctIndex": 1,
+    "explanation": "T&& denotes an rvalue reference in ordinary contexts.",
+    "tags": [
+      "move-semantics"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "Which feature can compute values/types during compilation?",
+    "code": "",
+    "options": [
+      "Templates and constexpr",
+      "Only virtual functions",
+      "Only threads",
+      "iostream"
+    ],
+    "correctIndex": 0,
+    "explanation": "Templates and constexpr enable extensive compile-time computation.",
+    "tags": [
+      "templates",
+      "constexpr"
+    ]
+  },
+  {
+    "language": "cpp",
+    "level": 5,
+    "text": "What is undefined behavior?",
+    "code": "",
+    "options": [
+      "Behavior fully specified by the standard",
+      "Behavior for which the C++ standard imposes no requirements",
+      "A compiler warning only",
+      "A caught exception"
+    ],
+    "correctIndex": 1,
+    "explanation": "For undefined behavior, the standard imposes no requirements on program behavior.",
+    "tags": [
+      "language-rules"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which element is the root element of an HTML document?",
+    "code": "",
+    "options": [
+      "<body>",
+      "<html>",
+      "<head>",
+      "<main>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<html> is the document's root element.",
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which tag creates the largest default heading?",
+    "code": "",
+    "options": [
+      "<h6>",
+      "<heading>",
+      "<h1>",
+      "<title>"
+    ],
+    "correctIndex": 2,
+    "explanation": "<h1> is the highest-level heading.",
+    "tags": [
+      "tags"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which tag creates a paragraph?",
+    "code": "",
+    "options": [
+      "<p>",
+      "<para>",
+      "<text>",
+      "<section>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<p> represents a paragraph.",
+    "tags": [
+      "tags"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Where is the page title shown in browser tabs usually defined?",
+    "code": "",
+    "options": [
+      "<meta>",
+      "<title>",
+      "<h1>",
+      "<caption>"
+    ],
+    "correctIndex": 1,
+    "explanation": "The <title> element in <head> sets the document title.",
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which attribute commonly provides alternative text for an image?",
+    "code": "",
+    "options": [
+      "title",
+      "alt",
+      "src",
+      "href"
+    ],
+    "correctIndex": 1,
+    "explanation": "alt provides a text alternative.",
+    "tags": [
+      "attributes",
+      "images"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which element inserts a line break?",
+    "code": "",
+    "options": [
+      "<lb>",
+      "<break>",
+      "<br>",
+      "<newline>"
+    ],
+    "correctIndex": 2,
+    "explanation": "<br> represents a line break.",
+    "tags": [
+      "tags"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which declaration identifies HTML5?",
+    "code": "",
+    "options": [
+      "<html5>",
+      "<!DOCTYPE html>",
+      "<doctype=5>",
+      "<meta html5>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<!DOCTYPE html> is the HTML5 doctype.",
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which tag contains the visible page content?",
+    "code": "",
+    "options": [
+      "<head>",
+      "<body>",
+      "<meta>",
+      "<link>"
+    ],
+    "correctIndex": 1,
+    "explanation": "Visible document content belongs in <body>.",
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which attribute specifies an image URL?",
+    "code": "",
+    "options": [
+      "href",
+      "src",
+      "path",
+      "link"
+    ],
+    "correctIndex": 1,
+    "explanation": "The img src attribute identifies the image resource.",
+    "tags": [
+      "images"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 1,
+    "text": "Which syntax is an HTML comment?",
+    "code": "",
+    "options": [
+      "// comment",
+      "<!-- comment -->",
+      "# comment",
+      "/* comment */"
+    ],
+    "correctIndex": 1,
+    "explanation": "HTML comments use <!-- ... -->.",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which element creates a hyperlink?",
+    "code": "",
+    "options": [
+      "<link>",
+      "<a>",
+      "<href>",
+      "<url>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<a> is the anchor element.",
+    "tags": [
+      "links"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which attribute specifies a hyperlink destination?",
+    "code": "",
+    "options": [
+      "src",
+      "href",
+      "action",
+      "target-only"
+    ],
+    "correctIndex": 1,
+    "explanation": "href contains the link destination.",
+    "tags": [
+      "links"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which element creates an unordered list?",
+    "code": "",
+    "options": [
+      "<ol>",
+      "<ul>",
+      "<li>",
+      "<list>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<ul> represents an unordered list.",
+    "tags": [
+      "lists"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which element represents a table row?",
+    "code": "",
+    "options": [
+      "<td>",
+      "<tr>",
+      "<th>",
+      "<row>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<tr> represents a table row.",
+    "tags": [
+      "tables"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which element creates a form?",
+    "code": "",
+    "options": [
+      "<input>",
+      "<form>",
+      "<fieldset>",
+      "<label>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<form> groups controls for submission.",
+    "tags": [
+      "forms"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which input type hides typed characters for password entry?",
+    "code": "",
+    "options": [
+      "text",
+      "hidden",
+      "password",
+      "secret"
+    ],
+    "correctIndex": 2,
+    "explanation": "type=password masks the entered value visually.",
+    "tags": [
+      "forms"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which attribute makes a form control mandatory in native validation?",
+    "code": "",
+    "options": [
+      "must",
+      "required",
+      "validate",
+      "needed"
+    ],
+    "correctIndex": 1,
+    "explanation": "required causes native constraint validation to reject empty submission.",
+    "tags": [
+      "forms",
+      "validation"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which tag defines a table header cell?",
+    "code": "",
+    "options": [
+      "<th>",
+      "<thead-only>",
+      "<tdh>",
+      "<headcell>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<th> is a header cell.",
+    "tags": [
+      "tables"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which attribute on <a> can open a link in a new browsing context?",
+    "code": "",
+    "options": [
+      "target=\"_blank\"",
+      "new=\"true\"",
+      "window=\"new\"",
+      "open=\"tab\""
+    ],
+    "correctIndex": 0,
+    "explanation": "target=_blank requests a new browsing context, often a tab.",
+    "tags": [
+      "links"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 2,
+    "text": "Which element groups options in a drop-down list?",
+    "code": "",
+    "options": [
+      "<select>",
+      "<choice>",
+      "<menuitem>",
+      "<dropdown>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<select> contains <option> elements.",
+    "tags": [
+      "forms"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which semantic element is intended for the main unique content of a page?",
+    "code": "",
+    "options": [
+      "<main>",
+      "<div>",
+      "<span>",
+      "<b>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<main> identifies the dominant content of the document body.",
+    "tags": [
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which element is appropriate for site navigation links?",
+    "code": "",
+    "options": [
+      "<nav>",
+      "<links>",
+      "<menuonly>",
+      "<aside>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<nav> marks a major navigation section.",
+    "tags": [
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which element represents a self-contained composition such as a post?",
+    "code": "",
+    "options": [
+      "<article>",
+      "<content>",
+      "<divpost>",
+      "<entry>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<article> is intended for independently distributable/self-contained content.",
+    "tags": [
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which element associates visible text with a form control?",
+    "code": "",
+    "options": [
+      "<label>",
+      "<legend> only",
+      "<caption>",
+      "<text>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<label> provides an accessible label for a form control.",
+    "tags": [
+      "forms",
+      "accessibility"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which input attribute constrains a text value with a regular expression?",
+    "code": "",
+    "options": [
+      "regex",
+      "pattern",
+      "match",
+      "constraint"
+    ],
+    "correctIndex": 1,
+    "explanation": "pattern supplies a regular expression for native validation.",
+    "tags": [
+      "validation"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which input type provides native email-format validation?",
+    "code": "",
+    "options": [
+      "mail",
+      "email",
+      "text-email",
+      "address"
+    ],
+    "correctIndex": 1,
+    "explanation": "type=email enables email-oriented semantics and validation.",
+    "tags": [
+      "forms",
+      "validation"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which semantic element is suited to tangential/sidebar content?",
+    "code": "",
+    "options": [
+      "<aside>",
+      "<main>",
+      "<footer-only>",
+      "<sidebar>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<aside> represents content indirectly related to surrounding content.",
+    "tags": [
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which element can provide a caption for a <figure>?",
+    "code": "",
+    "options": [
+      "<caption>",
+      "<figcaption>",
+      "<legend>",
+      "<title>"
+    ],
+    "correctIndex": 1,
+    "explanation": "<figcaption> captions a <figure>.",
+    "tags": [
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "What does the minlength attribute do?",
+    "code": "",
+    "options": [
+      "Sets minimum CSS width",
+      "Requires a minimum number of characters",
+      "Sets minimum numeric value for all controls",
+      "Limits forms"
+    ],
+    "correctIndex": 1,
+    "explanation": "minlength defines the minimum text length for applicable controls.",
+    "tags": [
+      "validation"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 3,
+    "text": "Which element groups related form controls with an optional legend?",
+    "code": "",
+    "options": [
+      "<fieldset>",
+      "<group>",
+      "<section-form>",
+      "<formset>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<fieldset> groups related controls and can use <legend>.",
+    "tags": [
+      "forms"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "What is the best first choice for labeling a form input?",
+    "code": "",
+    "options": [
+      "aria-label always",
+      "A visible <label> associated with the control",
+      "placeholder only",
+      "title only"
+    ],
+    "correctIndex": 1,
+    "explanation": "A properly associated visible label is generally the most robust accessible name.",
+    "tags": [
+      "accessibility"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "What does aria-hidden=\"true\" do?",
+    "code": "",
+    "options": [
+      "Deletes an element",
+      "Hides it from the accessibility tree",
+      "Makes it display:none",
+      "Prevents network loading"
+    ],
+    "correctIndex": 1,
+    "explanation": "aria-hidden removes the element/subtree from accessibility APIs but does not visually hide it.",
+    "tags": [
+      "aria"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "Which attribute associates a <label> with an input by ID?",
+    "code": "",
+    "options": [
+      "name",
+      "for",
+      "target",
+      "control"
+    ],
+    "correctIndex": 1,
+    "explanation": "label's for value matches the control's id.",
+    "tags": [
+      "accessibility",
+      "forms"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "Why should placeholder text not be the only label?",
+    "code": "",
+    "options": [
+      "It always breaks CSS",
+      "It disappears during entry and is not a reliable accessible label",
+      "It cannot contain letters",
+      "Browsers forbid it"
+    ],
+    "correctIndex": 1,
+    "explanation": "Placeholders are hints, not robust persistent labels.",
+    "tags": [
+      "accessibility"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "Which landmark element identifies page navigation?",
+    "code": "",
+    "options": [
+      "<nav>",
+      "<span role='text'>",
+      "<b>",
+      "<i>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<nav> carries navigation semantics.",
+    "tags": [
+      "accessibility",
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "When should role=\"button\" be preferred over <button>?",
+    "code": "",
+    "options": [
+      "Always",
+      "Only when a native button genuinely cannot be used and full keyboard behavior is implemented",
+      "For every link",
+      "Never under any circumstance"
+    ],
+    "correctIndex": 1,
+    "explanation": "Native <button> is preferred; custom roles require recreating native interactions.",
+    "tags": [
+      "aria",
+      "accessibility"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "What should meaningful images generally have?",
+    "code": "",
+    "options": [
+      "An informative alt value",
+      "alt omitted always",
+      "Only a filename",
+      "A CSS title"
+    ],
+    "correctIndex": 0,
+    "explanation": "Meaningful images need text alternatives describing their purpose/content.",
+    "tags": [
+      "accessibility",
+      "images"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "What should a purely decorative image typically use?",
+    "code": "",
+    "options": [
+      "alt=\"\"",
+      "alt=\"decorative image\"",
+      "No src",
+      "role=\"heading\""
+    ],
+    "correctIndex": 0,
+    "explanation": "An empty alt usually lets assistive tech ignore decorative images.",
+    "tags": [
+      "accessibility",
+      "images"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "Why use heading levels logically?",
+    "code": "",
+    "options": [
+      "Only to change font size",
+      "To communicate document structure to users and assistive technology",
+      "To load faster",
+      "To enable forms"
+    ],
+    "correctIndex": 1,
+    "explanation": "Headings convey hierarchical document structure.",
+    "tags": [
+      "accessibility",
+      "semantic"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 4,
+    "text": "Which native element supports keyboard activation and button semantics automatically?",
+    "code": "",
+    "options": [
+      "<div>",
+      "<span>",
+      "<button>",
+      "<section>"
+    ],
+    "correctIndex": 2,
+    "explanation": "<button> provides native semantics and keyboard interaction.",
+    "tags": [
+      "accessibility"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "What does rel=\"preload\" generally do?",
+    "code": "",
+    "options": [
+      "Hints that a current-page resource should be fetched with high priority",
+      "Creates a hyperlink",
+      "Defers every script",
+      "Blocks caching"
+    ],
+    "correctIndex": 0,
+    "explanation": "preload declares a resource likely needed soon by the current page.",
+    "tags": [
+      "performance",
+      "resource-hints"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "What does rel=\"preconnect\" hint to the browser?",
+    "code": "",
+    "options": [
+      "Parse HTML twice",
+      "Establish an early connection to an origin",
+      "Cache all images forever",
+      "Open a new tab"
+    ],
+    "correctIndex": 1,
+    "explanation": "preconnect can perform DNS/TCP/TLS setup early for an origin.",
+    "tags": [
+      "performance",
+      "resource-hints"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "Which meta tag commonly provides a search-result summary?",
+    "code": "",
+    "options": [
+      "meta name=\"description\"",
+      "meta name=\"keywords\" only",
+      "meta name=\"title\"",
+      "meta http-equiv=\"seo\""
+    ],
+    "correctIndex": 0,
+    "explanation": "meta description commonly supplies descriptive snippet text to search engines.",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "What is the purpose of the canonical link relation?",
+    "code": "",
+    "options": [
+      "Declare a preferred URL for substantially duplicate pages",
+      "Load CSS",
+      "Start a service worker",
+      "Set language"
+    ],
+    "correctIndex": 0,
+    "explanation": "rel=canonical signals the preferred representative URL.",
+    "tags": [
+      "seo"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "Which attribute can defer offscreen image loading in supporting browsers?",
+    "code": "",
+    "options": [
+      "loading=\"lazy\"",
+      "defer=\"image\"",
+      "async=\"img\"",
+      "fetch=\"later\""
+    ],
+    "correctIndex": 0,
+    "explanation": "loading=lazy requests lazy loading for eligible images/iframes.",
+    "tags": [
+      "performance"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "What is a custom element name required to contain?",
+    "code": "",
+    "options": [
+      "An underscore",
+      "A hyphen",
+      "A colon",
+      "A number"
+    ],
+    "correctIndex": 1,
+    "explanation": "Custom element names must contain a hyphen, such as user-card.",
+    "tags": [
+      "web-components"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "Which Web Components feature provides DOM/style encapsulation?",
+    "code": "",
+    "options": [
+      "Shadow DOM",
+      "LocalStorage",
+      "Canvas",
+      "WebSocket"
+    ],
+    "correctIndex": 0,
+    "explanation": "Shadow DOM provides an encapsulated DOM subtree and style boundary.",
+    "tags": [
+      "web-components"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "What does the <template> element provide?",
+    "code": "",
+    "options": [
+      "Inert markup that can be cloned/instantiated later",
+      "An automatic server template engine",
+      "A CSS reset",
+      "A navigation menu"
+    ],
+    "correctIndex": 0,
+    "explanation": "<template> stores markup that is not rendered until instantiated.",
+    "tags": [
+      "web-components"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "Which script attribute downloads in parallel and executes after HTML parsing, preserving order among defer scripts?",
+    "code": "",
+    "options": [
+      "async",
+      "defer",
+      "blocking",
+      "lazy"
+    ],
+    "correctIndex": 1,
+    "explanation": "defer scripts execute after parsing and preserve document order.",
+    "tags": [
+      "performance",
+      "scripts"
+    ]
+  },
+  {
+    "language": "html",
+    "level": 5,
+    "text": "Which attribute helps communicate the document language to assistive tech and search engines?",
+    "code": "",
+    "options": [
+      "lang on <html>",
+      "charset only",
+      "dir only",
+      "name"
+    ],
+    "correctIndex": 0,
+    "explanation": "The lang attribute on the root element identifies document language.",
+    "tags": [
+      "seo",
+      "accessibility"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which method is the standard entry point of a Java application?",
+    "code": "",
+    "options": [
+      "start()",
+      "public static void main(String[] args)",
+      "runMain()",
+      "init()"
+    ],
+    "correctIndex": 1,
+    "explanation": "The JVM invokes public static void main(String[] args).",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which primitive type stores true/false values?",
+    "code": "",
+    "options": [
+      "bool",
+      "boolean",
+      "Boolean only",
+      "bit"
+    ],
+    "correctIndex": 1,
+    "explanation": "boolean is Java's primitive logical type.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which statement prints a line to standard output?",
+    "code": "",
+    "options": [
+      "print()",
+      "System.out.println()",
+      "cout <<",
+      "Console.write()"
+    ],
+    "correctIndex": 1,
+    "explanation": "System.out.println writes a line to standard output.",
+    "tags": [
+      "io"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which keyword declares a class?",
+    "code": "",
+    "options": [
+      "class",
+      "type",
+      "struct",
+      "object"
+    ],
+    "correctIndex": 0,
+    "explanation": "Java classes are declared with class.",
+    "tags": [
+      "classes"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which type commonly stores whole numbers?",
+    "code": "",
+    "options": [
+      "int",
+      "String",
+      "double only",
+      "boolean"
+    ],
+    "correctIndex": 0,
+    "explanation": "int is a 32-bit signed integer primitive.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which operator compares primitive numeric values for equality?",
+    "code": "",
+    "options": [
+      "=",
+      "==",
+      "===",
+      "equals only"
+    ],
+    "correctIndex": 1,
+    "explanation": "== compares primitive values.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which symbol terminates most Java statements?",
+    "code": "",
+    "options": [
+      ":",
+      ";",
+      ",",
+      "."
+    ],
+    "correctIndex": 1,
+    "explanation": "Most Java statements end with a semicolon.",
+    "tags": [
+      "syntax"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which keyword creates a new object?",
+    "code": "",
+    "options": [
+      "make",
+      "new",
+      "create",
+      "alloc"
+    ],
+    "correctIndex": 1,
+    "explanation": "new allocates and constructs an object.",
+    "tags": [
+      "objects"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which type stores a single UTF-16 code unit?",
+    "code": "",
+    "options": [
+      "char",
+      "string",
+      "byte only",
+      "rune"
+    ],
+    "correctIndex": 0,
+    "explanation": "char is a 16-bit UTF-16 code unit.",
+    "tags": [
+      "types"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 1,
+    "text": "Which access modifier makes a member accessible everywhere (subject to module rules)?",
+    "code": "",
+    "options": [
+      "private",
+      "protected",
+      "public",
+      "local"
+    ],
+    "correctIndex": 2,
+    "explanation": "public provides the broadest normal access.",
+    "tags": [
+      "access"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which loop is commonly used for counted iteration?",
+    "code": "",
+    "options": [
+      "for",
+      "switch",
+      "try",
+      "class"
+    ],
+    "correctIndex": 0,
+    "explanation": "for is commonly used when iteration count is controlled by an index.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "What is the first index of a Java array?",
+    "code": "",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "Compiler-dependent"
+    ],
+    "correctIndex": 1,
+    "explanation": "Java arrays are zero-indexed.",
+    "tags": [
+      "arrays"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which method returns the length of a String?",
+    "code": "",
+    "options": [
+      "length",
+      "length()",
+      "size()",
+      "count()"
+    ],
+    "correctIndex": 1,
+    "explanation": "String exposes length() as a method.",
+    "tags": [
+      "strings"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which field gives an array's length?",
+    "code": "",
+    "options": [
+      "length",
+      "length()",
+      "size",
+      "count()"
+    ],
+    "correctIndex": 0,
+    "explanation": "Arrays use the length field, not a method.",
+    "tags": [
+      "arrays"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which collection is a resizable list?",
+    "code": "",
+    "options": [
+      "ArrayList",
+      "String",
+      "HashMap only",
+      "Thread"
+    ],
+    "correctIndex": 0,
+    "explanation": "ArrayList implements a resizable list.",
+    "tags": [
+      "collections"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which keyword exits a loop immediately?",
+    "code": "",
+    "options": [
+      "stop",
+      "break",
+      "exit",
+      "continue"
+    ],
+    "correctIndex": 1,
+    "explanation": "break exits the nearest loop/switch.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "What does continue do?",
+    "code": "",
+    "options": [
+      "Ends method",
+      "Skips to next loop iteration",
+      "Creates a thread",
+      "Throws exception"
+    ],
+    "correctIndex": 1,
+    "explanation": "continue moves to the next iteration.",
+    "tags": [
+      "loops"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which String comparison checks content equality?",
+    "code": "",
+    "options": [
+      "== always",
+      "equals()",
+      "same()",
+      "compare only"
+    ],
+    "correctIndex": 1,
+    "explanation": "equals() compares String content; == compares references.",
+    "tags": [
+      "strings"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which statement creates an int array of length 5?",
+    "code": "",
+    "options": [
+      "int[] a = new int[5];",
+      "int a = [5];",
+      "array<int> a(5);",
+      "int[5] a;"
+    ],
+    "correctIndex": 0,
+    "explanation": "new int[5] allocates a five-element int array.",
+    "tags": [
+      "arrays"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 2,
+    "text": "Which enhanced loop syntax iterates elements?",
+    "code": "",
+    "options": [
+      "for (int x : arr)",
+      "for x in arr",
+      "foreach x arr",
+      "loop(arr)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Java's enhanced for loop uses colon syntax.",
+    "tags": [
+      "loops",
+      "arrays"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which keyword establishes class inheritance?",
+    "code": "",
+    "options": [
+      "inherits",
+      "extends",
+      "implements",
+      "superclass"
+    ],
+    "correctIndex": 1,
+    "explanation": "A class extends another class.",
+    "tags": [
+      "inheritance"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which keyword says a class implements an interface?",
+    "code": "",
+    "options": [
+      "extends only",
+      "implements",
+      "interface-of",
+      "uses"
+    ],
+    "correctIndex": 1,
+    "explanation": "implements lists implemented interfaces.",
+    "tags": [
+      "interfaces"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which keyword refers to the current object?",
+    "code": "",
+    "options": [
+      "self",
+      "this",
+      "current",
+      "me"
+    ],
+    "correctIndex": 1,
+    "explanation": "this references the current instance.",
+    "tags": [
+      "oop"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which keyword refers to the parent class context?",
+    "code": "",
+    "options": [
+      "parent",
+      "base",
+      "super",
+      "up"
+    ],
+    "correctIndex": 2,
+    "explanation": "super accesses superclass constructors/members.",
+    "tags": [
+      "inheritance"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which block handles an exception?",
+    "code": "",
+    "options": [
+      "catch",
+      "handle",
+      "rescue",
+      "except"
+    ],
+    "correctIndex": 0,
+    "explanation": "catch handles a matching thrown exception.",
+    "tags": [
+      "exceptions"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which keyword explicitly throws an exception object?",
+    "code": "",
+    "options": [
+      "throws",
+      "throw",
+      "raise",
+      "error"
+    ],
+    "correctIndex": 1,
+    "explanation": "throw actually throws an exception; throws declares possible propagation.",
+    "tags": [
+      "exceptions"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Can a Java class extend multiple classes directly?",
+    "code": "",
+    "options": [
+      "Yes, unlimited",
+      "No, classes have single inheritance",
+      "Only two",
+      "Only abstract classes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Java classes support single class inheritance, though they can implement multiple interfaces.",
+    "tags": [
+      "inheritance"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "What is method overriding?",
+    "code": "",
+    "options": [
+      "Defining a subclass method with the same signature to replace inherited behavior",
+      "Two methods with different parameter lists in same class",
+      "Changing variable type",
+      "Catching an exception"
+    ],
+    "correctIndex": 0,
+    "explanation": "Overriding supplies a subtype-specific implementation of an inherited instance method.",
+    "tags": [
+      "polymorphism"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "What is method overloading?",
+    "code": "",
+    "options": [
+      "Same method name with different parameter lists",
+      "Same signature in subclass only",
+      "Using many threads",
+      "Multiple return statements"
+    ],
+    "correctIndex": 0,
+    "explanation": "Overloading uses the same name with distinct parameter lists.",
+    "tags": [
+      "functions"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 3,
+    "text": "Which modifier prevents a class from being subclassed?",
+    "code": "",
+    "options": [
+      "static",
+      "final",
+      "const",
+      "sealed-only always"
+    ],
+    "correctIndex": 1,
+    "explanation": "A final class cannot be extended.",
+    "tags": [
+      "classes"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Which collection stores unique elements with hash-based lookup?",
+    "code": "",
+    "options": [
+      "HashSet",
+      "ArrayList",
+      "LinkedList",
+      "TreeMap"
+    ],
+    "correctIndex": 0,
+    "explanation": "HashSet implements a hash-based set.",
+    "tags": [
+      "collections"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Why should equals() and hashCode() usually be overridden together?",
+    "code": "",
+    "options": [
+      "Hash-based collections rely on their consistency",
+      "The compiler requires it syntactically",
+      "To enable loops",
+      "To start threads"
+    ],
+    "correctIndex": 0,
+    "explanation": "Equal objects must produce equal hash codes for hash-based collections to work correctly.",
+    "tags": [
+      "equals",
+      "hashcode"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Which generic declaration means a list of String?",
+    "code": "",
+    "options": [
+      "List<String>",
+      "List(string)",
+      "List[str]",
+      "String<List>"
+    ],
+    "correctIndex": 0,
+    "explanation": "Java generics use angle brackets.",
+    "tags": [
+      "generics"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "What does Stream.map commonly do?",
+    "code": "",
+    "options": [
+      "Transforms each stream element",
+      "Sorts only",
+      "Closes the JVM",
+      "Mutates every source collection"
+    ],
+    "correctIndex": 0,
+    "explanation": "map applies a function to produce transformed stream elements.",
+    "tags": [
+      "streams"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "What does Stream.filter do?",
+    "code": "",
+    "options": [
+      "Keeps elements matching a predicate",
+      "Maps keys to values",
+      "Starts a thread",
+      "Catches errors"
+    ],
+    "correctIndex": 0,
+    "explanation": "filter retains elements for which the predicate is true.",
+    "tags": [
+      "streams"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Which interface imposes a natural ordering contract?",
+    "code": "",
+    "options": [
+      "Comparable",
+      "Comparator only",
+      "Serializable",
+      "Cloneable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparable defines compareTo for natural ordering.",
+    "tags": [
+      "collections"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Which interface supplies an external/custom ordering strategy?",
+    "code": "",
+    "options": [
+      "Comparator",
+      "Comparable only",
+      "Iterable",
+      "Runnable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Comparator compares two objects independently of their classes' natural order.",
+    "tags": [
+      "collections"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "What is type erasure in Java generics?",
+    "code": "",
+    "options": [
+      "Most generic type parameters are removed/translated at runtime representation",
+      "Objects are deleted",
+      "Types become strings",
+      "Generics run only at compile-time with no bytecode"
+    ],
+    "correctIndex": 0,
+    "explanation": "Java implements most generics through erasure, with casts/bridges inserted as needed.",
+    "tags": [
+      "generics"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "Which collection preserves key-value associations?",
+    "code": "",
+    "options": [
+      "Map",
+      "Set",
+      "Queue",
+      "List only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Map associates keys with values.",
+    "tags": [
+      "collections"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 4,
+    "text": "What does Optional primarily model?",
+    "code": "",
+    "options": [
+      "A value that may or may not be present",
+      "A background thread",
+      "A mutable integer",
+      "A database transaction"
+    ],
+    "correctIndex": 0,
+    "explanation": "Optional is a container expressing possible absence.",
+    "tags": [
+      "optional"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "Which keyword gives visibility guarantees for reads/writes of a variable across threads but does not make compound actions atomic?",
+    "code": "",
+    "options": [
+      "volatile",
+      "final",
+      "native",
+      "transient"
+    ],
+    "correctIndex": 0,
+    "explanation": "volatile establishes visibility/order guarantees, but operations like i++ are still not atomic.",
+    "tags": [
+      "concurrency",
+      "memory-model"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "Which construct provides intrinsic mutual exclusion around a monitor?",
+    "code": "",
+    "options": [
+      "synchronized",
+      "volatile",
+      "transient",
+      "strictfp"
+    ],
+    "correctIndex": 0,
+    "explanation": "synchronized acquires an object's/class's monitor.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "What is a happens-before relationship?",
+    "code": "",
+    "options": [
+      "A Java Memory Model ordering/visibility guarantee",
+      "A syntax rule for loops",
+      "A garbage-collector phase only",
+      "A class-loading error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Happens-before defines when effects of one action are guaranteed visible to another.",
+    "tags": [
+      "memory-model"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "Which interface is commonly submitted to an ExecutorService for a task with a return value?",
+    "code": "",
+    "options": [
+      "Callable",
+      "Runnable only",
+      "Comparable",
+      "Iterable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Callable<V> can return a value and throw checked exceptions.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "Which class represents a result that may become available later from an executor?",
+    "code": "",
+    "options": [
+      "Future",
+      "Optional",
+      "ThreadLocal",
+      "AtomicInteger only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Future represents an asynchronous computation result.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "What is deadlock?",
+    "code": "",
+    "options": [
+      "Threads wait cyclically for resources and cannot progress",
+      "A thread sleeping briefly",
+      "A caught exception",
+      "A GC pause"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deadlock occurs when threads wait on one another indefinitely.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "What does AtomicInteger provide?",
+    "code": "",
+    "options": [
+      "Atomic operations on an int value",
+      "An immutable Integer",
+      "Only volatile reads",
+      "A database key"
+    ],
+    "correctIndex": 0,
+    "explanation": "AtomicInteger supports lock-free/thread-safe atomic operations such as incrementAndGet.",
+    "tags": [
+      "concurrency"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "What is the JVM JIT compiler used for?",
+    "code": "",
+    "options": [
+      "Compiling hot bytecode to native machine code at runtime",
+      "Parsing SQL",
+      "Writing source files",
+      "Only garbage collection"
+    ],
+    "correctIndex": 0,
+    "explanation": "The JIT optimizes frequently executed bytecode into native code.",
+    "tags": [
+      "jvm",
+      "performance"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "Which memory area typically stores per-thread call frames and local variables?",
+    "code": "",
+    "options": [
+      "Java stack",
+      "Heap only",
+      "Metaspace only",
+      "String pool only"
+    ],
+    "correctIndex": 0,
+    "explanation": "Each thread has a stack containing frames for active method calls.",
+    "tags": [
+      "jvm",
+      "memory"
+    ]
+  },
+  {
+    "language": "java",
+    "level": 5,
+    "text": "What is a safepoint in the JVM?",
+    "code": "",
+    "options": [
+      "A state/location where threads can be coordinated for certain VM operations",
+      "A checked exception",
+      "A synchronized collection",
+      "A source-code comment"
+    ],
+    "correctIndex": 0,
+    "explanation": "Safepoints allow the JVM to bring threads to known states for operations such as parts of GC/deoptimization.",
+    "tags": [
+      "jvm"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which clause selects columns to return?",
+    "code": "",
+    "options": [
+      "SELECT",
+      "WHERE",
+      "ORDER",
+      "FROM only"
+    ],
+    "correctIndex": 0,
+    "explanation": "SELECT defines the result expressions/columns.",
+    "tags": [
+      "select"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which clause identifies the source table?",
+    "code": "",
+    "options": [
+      "TABLE",
+      "FROM",
+      "SOURCE",
+      "USING"
+    ],
+    "correctIndex": 1,
+    "explanation": "FROM names source tables or derived tables.",
+    "tags": [
+      "select"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which clause filters rows before they are returned?",
+    "code": "",
+    "options": [
+      "WHERE",
+      "ORDER BY",
+      "SELECT",
+      "LIMIT only"
+    ],
+    "correctIndex": 0,
+    "explanation": "WHERE applies row-level predicates.",
+    "tags": [
+      "where"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which clause sorts result rows?",
+    "code": "",
+    "options": [
+      "SORT",
+      "ORDER BY",
+      "GROUP",
+      "RANK"
+    ],
+    "correctIndex": 1,
+    "explanation": "ORDER BY sorts the result.",
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which keyword removes duplicate rows from a SELECT result?",
+    "code": "",
+    "options": [
+      "UNIQUE",
+      "DISTINCT",
+      "ONLY",
+      "DEDUP"
+    ],
+    "correctIndex": 1,
+    "explanation": "SELECT DISTINCT removes duplicate result rows.",
+    "tags": [
+      "select"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which expression counts rows?",
+    "code": "",
+    "options": [
+      "SUM(*)",
+      "COUNT(*)",
+      "ROWS()",
+      "NUMBER(*)"
+    ],
+    "correctIndex": 1,
+    "explanation": "COUNT(*) counts rows.",
+    "tags": [
+      "aggregate"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which clause commonly limits returned row count in MySQL/PostgreSQL?",
+    "code": "",
+    "options": [
+      "LIMIT",
+      "STOP",
+      "TOP only everywhere",
+      "ROWS"
+    ],
+    "correctIndex": 0,
+    "explanation": "LIMIT restricts result rows in MySQL/PostgreSQL.",
+    "tags": [
+      "limit"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which operator checks equality?",
+    "code": "",
+    "options": [
+      "=",
+      "==",
+      "===",
+      "EQ"
+    ],
+    "correctIndex": 0,
+    "explanation": "SQL normally uses = for equality comparisons.",
+    "tags": [
+      "operators"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "Which keyword represents a missing/unknown value?",
+    "code": "",
+    "options": [
+      "EMPTY",
+      "NULL",
+      "NONE",
+      "UNKNOWNVAL"
+    ],
+    "correctIndex": 1,
+    "explanation": "NULL represents missing/unknown information.",
+    "tags": [
+      "null"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 1,
+    "text": "How should NULL usually be tested?",
+    "code": "",
+    "options": [
+      "= NULL",
+      "IS NULL",
+      "== NULL",
+      "EQUALS NULL"
+    ],
+    "correctIndex": 1,
+    "explanation": "IS NULL tests for nullness.",
+    "tags": [
+      "null"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which join returns matching rows from both sides only?",
+    "code": "",
+    "options": [
+      "INNER JOIN",
+      "LEFT JOIN",
+      "FULL JOIN",
+      "CROSS JOIN"
+    ],
+    "correctIndex": 0,
+    "explanation": "INNER JOIN returns rows satisfying the join condition on both sides.",
+    "tags": [
+      "joins"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which join keeps all rows from the left table even without a match?",
+    "code": "",
+    "options": [
+      "LEFT JOIN",
+      "INNER JOIN",
+      "CROSS JOIN",
+      "SELF ONLY"
+    ],
+    "correctIndex": 0,
+    "explanation": "LEFT JOIN preserves unmatched left rows with NULLs on the right.",
+    "tags": [
+      "joins"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which clause groups rows for aggregate calculations?",
+    "code": "",
+    "options": [
+      "GROUP BY",
+      "ORDER BY",
+      "WHERE",
+      "LIMIT"
+    ],
+    "correctIndex": 0,
+    "explanation": "GROUP BY partitions rows into groups.",
+    "tags": [
+      "group-by"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which function computes an average?",
+    "code": "",
+    "options": [
+      "AVG",
+      "MEAN",
+      "AVERAGE",
+      "MID"
+    ],
+    "correctIndex": 0,
+    "explanation": "AVG computes the arithmetic mean of non-NULL values.",
+    "tags": [
+      "aggregate"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which function returns the largest value?",
+    "code": "",
+    "options": [
+      "TOP",
+      "MAX",
+      "GREATESTROW",
+      "HIGH"
+    ],
+    "correctIndex": 1,
+    "explanation": "MAX returns the maximum non-NULL value.",
+    "tags": [
+      "aggregate"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Where is a join condition commonly written for explicit JOIN syntax?",
+    "code": "",
+    "options": [
+      "ON",
+      "AT",
+      "WITH",
+      "MATCH"
+    ],
+    "correctIndex": 0,
+    "explanation": "ON specifies the join predicate.",
+    "tags": [
+      "joins"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "What does CROSS JOIN produce?",
+    "code": "",
+    "options": [
+      "Cartesian product",
+      "Only matching keys",
+      "Left rows only",
+      "Aggregated rows"
+    ],
+    "correctIndex": 0,
+    "explanation": "CROSS JOIN pairs every row from one input with every row from the other.",
+    "tags": [
+      "joins"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which clause filters grouped aggregate results?",
+    "code": "",
+    "options": [
+      "HAVING",
+      "WHERE only",
+      "ORDER BY",
+      "ON"
+    ],
+    "correctIndex": 0,
+    "explanation": "HAVING filters after grouping/aggregation.",
+    "tags": [
+      "having"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which aggregate counts non-NULL values in column x?",
+    "code": "",
+    "options": [
+      "COUNT(x)",
+      "COUNT(NULL)",
+      "SUM(x) always",
+      "ROWS(x)"
+    ],
+    "correctIndex": 0,
+    "explanation": "COUNT(x) ignores NULL values.",
+    "tags": [
+      "aggregate"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 2,
+    "text": "Which join can be used to join a table to itself using aliases?",
+    "code": "",
+    "options": [
+      "Self join via ordinary JOIN syntax",
+      "Only CROSS APPLY",
+      "Impossible",
+      "UNION only"
+    ],
+    "correctIndex": 0,
+    "explanation": "A self join uses the same table multiple times with aliases.",
+    "tags": [
+      "joins"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "What is a subquery?",
+    "code": "",
+    "options": [
+      "A query nested inside another SQL statement",
+      "A database backup",
+      "A table index",
+      "A transaction log"
+    ],
+    "correctIndex": 0,
+    "explanation": "A subquery is a nested SELECT used by an outer statement.",
+    "tags": [
+      "subquery"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "Which expression supports conditional values inside a query?",
+    "code": "",
+    "options": [
+      "CASE",
+      "IFBLOCK only",
+      "SWITCH",
+      "MATCHCASE"
+    ],
+    "correctIndex": 0,
+    "explanation": "CASE implements conditional expressions in standard SQL.",
+    "tags": [
+      "case"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "What does UNION do by default?",
+    "code": "",
+    "options": [
+      "Combines compatible result sets and removes duplicates",
+      "Joins columns by key",
+      "Keeps only duplicates",
+      "Sorts one table only"
+    ],
+    "correctIndex": 0,
+    "explanation": "UNION combines rows and performs duplicate elimination.",
+    "tags": [
+      "set-operators"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "What does UNION ALL do?",
+    "code": "",
+    "options": [
+      "Combines result sets and keeps duplicates",
+      "Only returns common rows",
+      "Removes all duplicates",
+      "Joins tables horizontally"
+    ],
+    "correctIndex": 0,
+    "explanation": "UNION ALL concatenates compatible result sets without duplicate elimination.",
+    "tags": [
+      "set-operators"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "What is the key difference between WHERE and HAVING?",
+    "code": "",
+    "options": [
+      "WHERE filters rows before grouping; HAVING filters groups after aggregation",
+      "They are identical",
+      "HAVING sorts rows",
+      "WHERE can only use text"
+    ],
+    "correctIndex": 0,
+    "explanation": "WHERE is evaluated before grouping; HAVING is for grouped results.",
+    "tags": [
+      "where",
+      "having"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "Which operator tests whether a value appears in a subquery/list?",
+    "code": "",
+    "options": [
+      "IN",
+      "HAS",
+      "CONTAINS",
+      "AMONG"
+    ],
+    "correctIndex": 0,
+    "explanation": "IN compares a value with a set/list of values.",
+    "tags": [
+      "subquery"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "Which predicate tests whether a subquery returns at least one row?",
+    "code": "",
+    "options": [
+      "EXISTS",
+      "PRESENT",
+      "ANYROW",
+      "HASROW"
+    ],
+    "correctIndex": 0,
+    "explanation": "EXISTS is true when its subquery returns at least one row.",
+    "tags": [
+      "subquery"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "Which expression replaces NULL with a fallback in standard SQL?",
+    "code": "",
+    "options": [
+      "COALESCE",
+      "REPLACE_NULL",
+      "DEFAULTIF",
+      "NVL only standard"
+    ],
+    "correctIndex": 0,
+    "explanation": "COALESCE returns the first non-NULL argument.",
+    "tags": [
+      "null"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "Which set operator returns rows common to both compatible result sets in supporting DBMSs?",
+    "code": "",
+    "options": [
+      "INTERSECT",
+      "UNION ALL",
+      "EXCEPT",
+      "JOIN"
+    ],
+    "correctIndex": 0,
+    "explanation": "INTERSECT returns rows present in both inputs.",
+    "tags": [
+      "set-operators"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 3,
+    "text": "A correlated subquery is one that...",
+    "code": "",
+    "options": [
+      "References columns from an outer query",
+      "Cannot reference any table",
+      "Always returns one row",
+      "Must use UNION"
+    ],
+    "correctIndex": 0,
+    "explanation": "Correlated subqueries depend on values from the outer row/query.",
+    "tags": [
+      "subquery"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What is the main purpose of an index?",
+    "code": "",
+    "options": [
+      "Speed up certain data retrieval operations at storage/write cost",
+      "Encrypt rows",
+      "Replace primary keys",
+      "Guarantee no NULLs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Indexes provide lookup/order structures that can reduce query work, with maintenance/storage tradeoffs.",
+    "tags": [
+      "indexes"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What does a transaction provide as a unit?",
+    "code": "",
+    "options": [
+      "A group of operations committed or rolled back together",
+      "A permanent index",
+      "A view only",
+      "A stored string"
+    ],
+    "correctIndex": 0,
+    "explanation": "Transactions group operations into an atomic unit of work.",
+    "tags": [
+      "transactions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "Which command makes current transaction changes permanent?",
+    "code": "",
+    "options": [
+      "COMMIT",
+      "SAVE",
+      "APPLY",
+      "FINISH"
+    ],
+    "correctIndex": 0,
+    "explanation": "COMMIT completes the transaction successfully.",
+    "tags": [
+      "transactions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "Which command abandons uncommitted transaction changes?",
+    "code": "",
+    "options": [
+      "ROLLBACK",
+      "UNDO TABLE",
+      "DELETE TRANSACTION",
+      "RESET"
+    ],
+    "correctIndex": 0,
+    "explanation": "ROLLBACK reverses changes made in the current transaction (subject to DB semantics).",
+    "tags": [
+      "transactions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What is normalization intended to reduce?",
+    "code": "",
+    "options": [
+      "Redundant data and update anomalies",
+      "All joins",
+      "Every index",
+      "Query permissions"
+    ],
+    "correctIndex": 0,
+    "explanation": "Normalization organizes relations to reduce redundancy and anomalies.",
+    "tags": [
+      "normalization"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What is a primary key?",
+    "code": "",
+    "options": [
+      "A constraint identifying each row uniquely and non-null",
+      "Any indexed text column",
+      "A foreign table",
+      "A query alias"
+    ],
+    "correctIndex": 0,
+    "explanation": "A primary key uniquely identifies each row and cannot be NULL.",
+    "tags": [
+      "constraints"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What is a foreign key used for?",
+    "code": "",
+    "options": [
+      "Enforcing referential relationships between tables",
+      "Sorting a table",
+      "Encrypting values",
+      "Creating views"
+    ],
+    "correctIndex": 0,
+    "explanation": "Foreign keys enforce referential integrity against candidate/primary keys.",
+    "tags": [
+      "constraints"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "Which isolation anomaly involves reading uncommitted data from another transaction?",
+    "code": "",
+    "options": [
+      "Dirty read",
+      "Phantom only",
+      "Lost sort",
+      "Hash collision"
+    ],
+    "correctIndex": 0,
+    "explanation": "A dirty read observes another transaction's uncommitted changes.",
+    "tags": [
+      "transactions",
+      "isolation"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "Which isolation level is the strongest among the standard four?",
+    "code": "",
+    "options": [
+      "READ UNCOMMITTED",
+      "READ COMMITTED",
+      "REPEATABLE READ",
+      "SERIALIZABLE"
+    ],
+    "correctIndex": 3,
+    "explanation": "SERIALIZABLE provides behavior equivalent to serial transaction execution under the standard model.",
+    "tags": [
+      "isolation"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 4,
+    "text": "What is a composite index?",
+    "code": "",
+    "options": [
+      "An index over more than one column",
+      "Two databases",
+      "A duplicated index file",
+      "A primary key only"
+    ],
+    "correctIndex": 0,
+    "explanation": "A composite/multicolumn index contains multiple indexed columns.",
+    "tags": [
+      "indexes"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "Which function assigns a sequential number within a window partition/order?",
+    "code": "",
+    "options": [
+      "ROW_NUMBER()",
+      "COUNTROW()",
+      "INDEX()",
+      "SEQ()"
+    ],
+    "correctIndex": 0,
+    "explanation": "ROW_NUMBER() numbers rows according to the window ordering.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "Which clause defines partitioning/order for a window function?",
+    "code": "",
+    "options": [
+      "OVER",
+      "WINDOWBY only",
+      "GROUP WINDOW",
+      "ON"
+    ],
+    "correctIndex": 0,
+    "explanation": "OVER(...) defines the window specification.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "What is the key difference between GROUP BY and window functions?",
+    "code": "",
+    "options": [
+      "Window functions can compute aggregates/ranks without collapsing rows",
+      "They are identical",
+      "GROUP BY never aggregates",
+      "Window functions cannot order"
+    ],
+    "correctIndex": 0,
+    "explanation": "Window functions retain individual rows while computing values across a related window.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "What does EXPLAIN commonly show?",
+    "code": "",
+    "options": [
+      "A database's planned/actual strategy for executing a query, depending on DBMS/options",
+      "Table contents only",
+      "User passwords",
+      "SQL syntax help only"
+    ],
+    "correctIndex": 0,
+    "explanation": "EXPLAIN exposes an execution plan or planner estimates.",
+    "tags": [
+      "execution-plan"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "Why can SELECT * be undesirable in performance-sensitive code?",
+    "code": "",
+    "options": [
+      "It may fetch unnecessary columns and increase I/O/network work",
+      "It is invalid SQL",
+      "It disables indexes always",
+      "It deletes duplicates"
+    ],
+    "correctIndex": 0,
+    "explanation": "Selecting only needed columns can reduce transferred/read data and improve plan options.",
+    "tags": [
+      "performance"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "What is a covering index?",
+    "code": "",
+    "options": [
+      "An index containing all data columns needed to satisfy a query without extra table lookups in supported engines",
+      "An encrypted index",
+      "A backup index",
+      "A foreign key"
+    ],
+    "correctIndex": 0,
+    "explanation": "A covering index can answer required columns directly from the index structure.",
+    "tags": [
+      "indexes",
+      "performance"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "Which window function gives equal values the same rank and leaves gaps after ties?",
+    "code": "",
+    "options": [
+      "RANK()",
+      "DENSE_RANK()",
+      "ROW_NUMBER()",
+      "NTILE()"
+    ],
+    "correctIndex": 0,
+    "explanation": "RANK gives ties the same rank and skips subsequent rank numbers.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "Which window function gives equal values the same rank without gaps?",
+    "code": "",
+    "options": [
+      "DENSE_RANK()",
+      "RANK()",
+      "ROW_NUMBER()",
+      "LEAD()"
+    ],
+    "correctIndex": 0,
+    "explanation": "DENSE_RANK does not leave gaps after ties.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "What does LAG(value) do in a window?",
+    "code": "",
+    "options": [
+      "Accesses a value from a preceding row in the window ordering",
+      "Sorts descending",
+      "Groups rows",
+      "Returns next row only"
+    ],
+    "correctIndex": 0,
+    "explanation": "LAG returns a value from an earlier row relative to the current row.",
+    "tags": [
+      "window-functions"
+    ]
+  },
+  {
+    "language": "sql",
+    "level": 5,
+    "text": "A query uses an index but is still slow. What should you inspect next?",
+    "code": "",
+    "options": [
+      "The execution plan, row estimates, selectivity, joins, and I/O",
+      "Only rename the table",
+      "Add random indexes indefinitely",
+      "Remove WHERE"
+    ],
+    "correctIndex": 0,
+    "explanation": "Performance tuning should use the execution plan and workload evidence rather than assuming index usage alone is sufficient.",
+    "tags": [
+      "performance",
+      "execution-plan"
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+<?php $pageTitle='Student Site – Unimesh'; include 'includes/header.php'; ?>
+<section class="hero"><div><div class="kicker">🎓 Independent Student Gateway</div><h1>Student <span class="gradient">Unimesh Site</span></h1><p>Verify skills, showcase projects, take assessments, discover jobs and find hackathon teams.</p><div class="actions"><a class="btn" href="register.php">Create Student Account</a><a class="btn secondary" href="login.php">Student Login</a></div></div><div class="hero-card"><h3>Independent session</h3><p class="muted">You can keep this site logged in while another Unimesh role is logged in in another tab on the same browser.</p></div></section>
+<?php include 'includes/footer.php'; ?>

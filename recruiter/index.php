@@ -1,0 +1,3 @@
+<?php $pageTitle='Recruiter Site – Unimesh'; include 'includes/header.php'; ?>
+<section class="hero"><div><div class="kicker">💼 Independent Recruiter Gateway</div><h1>Recruiter <span class="gradient">Unimesh Site</span></h1><p>Publish opportunities, discover verified student talent, review applications and screen candidates.</p><div class="actions"><a class="btn" href="register.php">Create Recruiter Account</a><a class="btn secondary" href="login.php">Recruiter Login</a></div></div><div class="hero-card"><h3>Independent session</h3><p class="muted">You can keep this site logged in while another Unimesh role is logged in in another tab on the same browser.</p></div></section>
+<?php include 'includes/footer.php'; ?>

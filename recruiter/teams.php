@@ -1,0 +1,1 @@
+<?php $pageTitle='Teams'; require 'config.php'; require 'includes/functions.php'; require_role('recruiter'); include 'includes/header.php'; ?><div class="card"><h2>Not part of the Recruiter site</h2><p class="muted">This module belongs to another independent Unimesh gateway.</p><a class="btn" href="dashboard.php">Back to Dashboard</a></div><?php include 'includes/footer.php'; ?>

@@ -1,0 +1,3 @@
+<?php $pageTitle='Team Leader Site – Unimesh'; include 'includes/header.php'; ?>
+<section class="hero"><div><div class="kicker">🚀 Independent Team Leader Gateway</div><h1>Team Leader <span class="gradient">Unimesh Site</span></h1><p>Create hackathon teams, identify skill gaps, find verified teammates and manage join requests.</p><div class="actions"><a class="btn" href="register.php">Create Team Leader Account</a><a class="btn secondary" href="login.php">Team Leader Login</a></div></div><div class="hero-card"><h3>Independent session</h3><p class="muted">You can keep this site logged in while another Unimesh role is logged in in another tab on the same browser.</p></div></section>
+<?php include 'includes/footer.php'; ?>
